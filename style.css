@@ -1,0 +1,130 @@
+/* Background pattern from subtlepatterns.com */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Candal', sans-serif;
+	background-image: url(img/tlo.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.clearfix:before, .clearfix:after {
+	content:" ";
+	display: table;
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+
+#wrapper {
+	width: 1280px;
+	max-width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700; 
+}
+
+.okna_wypisz_wpisz {
+	width: 23%;
+	height: 2em;
+	text-align: center;
+	font-size: 2em;
+	text-transform: lowercase;
+	margin:0 auto;
+}
+
+.button, .button_reset {
+	background-color: #f95633;
+	border: none;
+	font-size: 1.2em;
+	color: white;
+	width: 16%;
+	height: 2em;
+	margin: .5em;
+	border-bottom: .2em solid #a2361d;
+	border-radius: 10px;
+	font-weight: 700;
+}
+
+.number {
+	padding: 1em 0;
+	width:25%;
+	background-color:#303340;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 10px;
+}
+
+hr {
+	border: none;
+ 	background-color: #f95633;
+ 	height: .1em;
+ }
+
+.equal {
+	width: 23%;
+	background-color: #f95633;
+	margin :0 auto;
+	color: white;
+	text-align: center;
+	height: 4em;
+	
+}
+.equal p {
+	margin: 0 0 0 0;
+	font-size: 2.5em;
+}
+
+.przelicz {
+	width: 23%;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	border: none;
+	background-color: #f95633;
+	padding: .5em 0;
+	font-size: 1.5em;
+	font-weight: 700;
+	display: block;
+	margin:0 auto;
+}
+
+.wybor {
+	background-color:#303340 ;
+	text-align: center;
+	width: 40%;
+	margin: 0 auto;
+	color: white;
+}
+
+.wybor h3 {
+	color: #f95633;
+}
+
+.wybor_z {
+	display: inline-block;
+	width: 45%;
+	font-size: 1em;
+	padding: 0.0.0.0;
+	text-align: left;
+
+
+
+}
+.wybor_na {
+	display: inline-block;
+	width: 45%;
+	font-size: 1em;
+	text-align: right;
+}
+
+
+

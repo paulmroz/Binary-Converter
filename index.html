@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ 	<meta charset="utf-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="img/icon.jpg">
+	<link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="wrapper">
+		
+		
+			<input type="text" name="answer" id="ekran" class="okna_wypisz_wpisz" />
+
+			<input type="text" name="result" id="wynik" class="okna_wypisz_wpisz" />
+
+			</br>
+	
+		<div class="number">
+			<input class="button" type="button" value="1"/>
+			<input class="button" type="button" value="2"/>
+			<input class="button" type="button" value="3"/>
+			</br>
+
+			<input class="button" type="button" value="4"/>
+			<input class="button" type="button" value="5"/>
+			<input class="button" type="button" value="6"/>
+			</br>
+
+			<input class="button" type="button" value="7"/>
+			<input class="button" type="button" value="8"/>
+			<input class="button" type="button" value="9"/>
+			</br>
+			<input class="button" type="button" value="0"/>
+			<input class="button" type="button" value="00"/>
+			<input class="button_reset" type="button" value="Del" id="czyszc"/>
+			</br>
+			<hr>
+			<input class="button" type="button" value="A"/>
+			<input class="button" type="button" value="B"/>
+			<input class="button" type="button" value="C"/>
+			</br>
+			
+			<input class="button" type="button" value="D"/>
+			<input class="button" type="button" value="E"/>
+			<input class="button" type="button" value="F"/>
+
+			
+		</div>	
+			
+		
+			<input type="button" value="Convert" id="zamien" class="przelicz">
+	
+			<div class="wybor"> 
+				<div class="wybor_z">
+					<h3>Convert from:</h3>
+						<input type="radio" name="from" checked="checked" value="dziesietny">Decimal<br>
+		  				<input type="radio" name="from" value="szesnastkowy">Hexadecimal<br>
+		  				<input type="radio" name="from" value="osemkowy" >Octal<br>
+		  				<input type="radio" name="from" value="binarny" >Binary
+				</div>
+
+				<div class="wybor_na">
+		  			<h3>Convert to:</h3>
+						Decimal	<input type="radio" name="to" checked="checked" value="dziesietny"><br>
+		  				Hexadecimal<input type="radio" name="to" value="szesnastkowy"><br>
+		  				Octal	<input type="radio" name="to" value="osemkowy"><br>
+		  				Binary		<input type="radio" name="to" value="binarny" >
+				</div>
+			</div>
+
+
+	
+	</div>
+	<script type="text/javascript" src="skrypt.js"></script>
+</body>
+</html>
